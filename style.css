@@ -1,0 +1,148 @@
+h1 {
+    display: flex;
+  }
+  
+  body {
+    font-family: "Urbanist", sans-serif;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 344px;
+    background-image: url(images/snow-hintergrund.jpeg);
+  }
+  
+  /*#Kontakt {
+    display: flex;
+    background-color: rgb(248, 247, 246);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 16px rgb(196, 195, 194);
+    margin: 30px 0px 0px 0px;
+    color: black;
+    grid-row: 2;*/
+  
+  /*.socials {
+      width: 300px;
+      border-radius: 0px;
+      
+  }
+  */
+  
+  /*article {
+    background-color: rgb(248, 247, 246);
+    border: 1px solid black;
+    padding: 8px;
+    box-shadow: 0px 0px 16px rgb(196, 195, 194);
+    margin: 30px 0px 30px 0px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-end: 3;
+    grid-row: 5;
+  }
+  */
+  img {
+    border-style: solid;
+    color: black;
+    border-color: black;
+    border-width: 15px;
+  }
+  
+  .nav li {
+    list-style-type: none;
+    width: 100px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+  
+    padding: 0;
+    color: black;
+  }
+  
+  i {
+    color: black;
+    width: 8px;
+    font-size: 30px;
+  }
+  /*address {
+    display: flex;
+    columns: 2;
+    grid-row-start: initia;
+    color: black;
+    order: 2;
+    grid-row: 3;
+  } */
+  
+  #contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    columns: 2;
+    gap: 20px;
+  }
+  /*header {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    color: black;
+    border:whitesmoke thin;
+    background-color: white;
+    border-color: black;
+  }*/
+  
+  article {
+    border-style: groove;
+    color: black;
+    border-color: black;
+    background-image: url(images/snow-hintergrund.png);
+    grid-column: 2;
+    grid-row: 2;
+    padding: 5px 5px 5px 5px;
+  }
+  
+  address {
+    grid-column: 1;
+    grid-row: 2;
+    border-style: groove;
+    color: black;
+    border-color: black;
+    background-image: url(images/snow-hintergrund.png);
+  }
+  
+  aside {
+    grid-column: 1;
+    grid-row: 3;
+    border-style: groove;
+    color: black;
+    border-color: black;
+    background-image: url(images/snow-hintergrund.png);
+    padding: 5px 5px 5px 5px;
+  }
+  
+  footer {
+    grid-column: 2 / 3;
+    grid-row: 3;
+    border-style: groove;
+    color: black;
+    border-color: black;
+    background-image: url(images/snow-hintergrund.png);
+  }
+  
+  .skills {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    grid-template-columns: 1fr 1fr;
+  }
+  p {
+    color: black;
+  }
