@@ -1,0 +1,96 @@
+h1 {
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.logo {
+  display: grid;
+  font-size: 25px;
+  font-weight: 900;
+  grid-template-rows: 20px;
+  align-items: start;
+
+  /*flex-direction: row;
+  gap: 5px 10px;
+  row-gap: 5px;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 1;*/
+}
+
+p {
+  margin-top: 50px;
+}
+
+/*span {
+  grid-row-start: ;
+  
+}*/
+
+h3 {
+  display: grid;
+  margin-top: 210px;
+  margin-bottom: 23px;
+  justify-content: flex-start;
+  text-align: left;
+  align-content: space-between;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: white;
+  padding: 15px 5px 0px 5px;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 344px;
+  background-image: url(images/IMG_6228.jpeg);
+}
+
+img {
+  border-style: solid;
+  color: black;
+  border-color: black;
+  border-width: 15px;
+}
+
+.nav li {
+  list-style-type: none;
+  width: 100px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: greenyellow;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 60px;
+  margin-top: 10px;
+  padding: 0;
+  color: greenyellow;
+}
+
+i {
+  margin-top: 40px;
+  color: greenyellow;
+  width: 8px;
+  font-size: 30px;
+}
+
+/*article {
+  border-style: groove;
+  color: black;
+  border-color: black;
+  background-image: url(images/snow-hintergrund.png);
+  grid-column: 2;
+  grid-row: 2;
+  padding: 5px 5px 5px 5px;*/
+
+footer {
+  color: white;
+}
