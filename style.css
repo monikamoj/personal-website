@@ -38,10 +38,19 @@ body {
 }
 @media only screen and (min-width: 500px) {
   body {
-      background-image: url(images/Fotobig.jpeg);
+    background-image: url(images/Fotobig.jpeg);
   }
 }
-  
+/*@media (orientation: landscape) {
+  body {
+    background-image: url(images/Fotobig.jpeg);
+  }
+}
+@media (orientation: portrait) {
+  body {
+    background-image: url(images/IMG_6228.jpeg);
+  }
+} */
 
 img {
   border-style: solid;
@@ -79,4 +88,3 @@ i {
 footer {
   color: white;
 }
-
