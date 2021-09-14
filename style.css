@@ -36,6 +36,12 @@ body {
   width: 344px;
   background-image: url(images/IMG_6228.jpeg);
 }
+@media only screen and (min-width: 500px) {
+  body {
+      background-image: url(images/Fotobig.jpeg);
+  }
+}
+  
 
 img {
   border-style: solid;
@@ -73,3 +79,4 @@ i {
 footer {
   color: white;
 }
+

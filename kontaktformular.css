@@ -103,11 +103,11 @@ label.fcf-label {
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/*@media (prefers-reduced-motion: reduce) {
   .fcf-btn {
     transition: none;
   }
-}
+}*/
 
 .fcf-btn:hover {
   color: #212529;
